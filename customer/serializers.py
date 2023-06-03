@@ -17,4 +17,4 @@ class CustomerDetailAddressSerializer(serializers.ModelSerializer):
     related_name=CustomerAddressSerializer
     class Meta:
         model = Customers
-        feilds = ('first_name')
+        feilds = ('first_name,last_name,mobile_no,address_name,age,country_name,city_name,dob')
